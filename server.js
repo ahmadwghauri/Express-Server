@@ -30,7 +30,7 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/',(req,res) => {
   // res.send('Hello Express!');
   res.render('home.hbs', {
-    welcomeMessage: 'Welcome to my page'
+    welcomeMessage: 'Welcome to my home page'
   })
 });
 
@@ -38,6 +38,12 @@ app.get('/about',(req,res) => {
   res.render('about.hbs', {
     pageTitle: 'About Page',
     currentYear: new Date().getFullYear()
+  });
+});
+
+app.get('/projects',(req,res) => {
+  res.render('projects.hbs', {
+    welcomeMessage: 'Welcome to my projects page'
   });
 });
 
