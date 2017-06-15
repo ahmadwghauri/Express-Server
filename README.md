@@ -9,4 +9,4 @@ This app sets-up a basic site using Node.js and Express.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
